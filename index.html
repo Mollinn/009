@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- підключення файлу з іконочними шрифтами файл вставляти в готовий dist -->
+    <!-- <link rel="stylesheet" href="css/icon.css"> -->
+
+    <!-- свайпер слайдер -->
+    <!-- <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/> -->
+
+    <!-- CSS only Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
+    <!-- !основний файл стилів! -->
+    <link rel="stylesheet" href="css/style.min.css">
+    
+    <title>MenuBurger</title>
+</head>
+    <body>
+        <!-- ~~~~~ПІДКЛЮЧЕННЯ МЕНЮ БУРГЕР~~~~~ -->
+
+
+    <div class="wrapper">
+        <div data-spollers data-one-spoller class="block block_1">
+            <div class="block__item">
+                <button tabindex="-1" type="button" data-spoller class="block__title">Звичайний спойлер №1</button>
+                <div class="block__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed fugit, a in soluta saepe rem aliquam officia explicabo delectus quo!
+                </div>
+            </div>
+            <div class="block__item">
+                <button tabindex="-1" type="button" data-spoller class="block__title">Звичайний спойлер №2</button>
+                <div class="block__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed fugit, a in soluta saepe rem aliquam officia explicabo delectus quo!
+                </div>
+            </div>
+            <div class="block__item">
+                <button tabindex="-1" type="button" data-spoller class="block__title">Звичайний спойлер №3</button>
+                <div class="block__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed fugit, a in soluta saepe rem aliquam officia explicabo delectus quo!
+                </div>
+            </div>
+        </div>
+        <div data-spollers="650,min" class="block block_2">
+            <div class="block__item">
+                <button tabindex="-1" type="button" data-spoller class="block__title">Працює на екранах >= 650px</button>
+                <div class="block__text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio deserunt modi aliquid aperiam beatae, quod quos dicta enim possimus odit.
+                </div>
+            </div>
+        </div>
+        <div data-spollers="800,max" class="block block_3">
+            <div class="block__item">
+                <button class="block__title" tabindex="-1"  type="button" data-spoller >Спойлер №1 працює на екранах <= 800px</button>
+                <div class="block__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus soluta dolor eveniet minima tempora quasi accusantium quaerat fuga, autem quo!
+                </div>
+            </div>
+            <div class="block__item">
+                <button class="block__title" type="button" data-spoller tabindex="-1">Спойлер №2 працює на екранах <= 800px</button>
+                <div class="block__text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde adipisci earum illo consectetur id optio facere voluptates error quos eaque.
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+<!-- JavaScript Bundle with Popper Bootstrap -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> -->
+
+<!-- підключення іконочного шрифту -->
+<!-- <script src="https://kit.fontawesome.com/0addc13fe3.js" crossorigin="anonymous"></script> -->
+
+<!-- свайпер слайдер -->
+<!-- <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script> -->
+
+<!-- бібліотеки -->
+<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+<!-- <script src="js/slick.min.js"></script> -->
+<script src="js/app.min.js" ></script>
+</body>
+</html>
